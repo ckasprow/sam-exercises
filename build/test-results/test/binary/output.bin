@@ -1,0 +1,86 @@
+
+Comparing
+
+Comparing
+
+Comparing
+staIdx: 0 vs stack.size() 1
+samIdx: 0 vs sample.size() 3
+
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+
+Comparing
+staIdx: 0 vs stack.size() 2
+samIdx: 0 vs sample.size() 3
+staIdx: 1 vs stack.size() 2
+samIdx: 1 vs sample.size() 3
+
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 3
+
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+
+Comparing
+
+Comparing
+
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+
+Comparing
+
+Comparing
+staIdx: 0 vs stack.size() 1
+samIdx: 0 vs sample.size() 2
+
+Comparing
+staIdx: 0 vs stack.size() 2
+samIdx: 0 vs sample.size() 3
+staIdx: 1 vs stack.size() 2
+samIdx: 1 vs sample.size() 3
+
+Comparing
+
+Comparing
+staIdx: 0 vs stack.size() 1
+samIdx: 0 vs sample.size() 3
+
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+[Event{
+	type=[start],
+	ts=[10.7],
+	funcName=[main]
+
+}, Event{
+	type=[start],
+	ts=[11.6],
+	funcName=[outer_function]
+
+}, Event{
+	type=[start],
+	ts=[11.6],
+	funcName=[inner_function]
+
+}, Event{
+	type=[end],
+	ts=[12.5],
+	funcName=[inner_function]
+
+}, Event{
+	type=[end],
+	ts=[12.5],
+	funcName=[outer_function]
+
+}, Event{
+	type=[start],
+	ts=[12.5],
+	funcName=[new_function]
+}]

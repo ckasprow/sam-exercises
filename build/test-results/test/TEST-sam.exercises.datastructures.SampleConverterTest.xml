@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sam.exercises.datastructures.SampleConverterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-02-15T23:33:58" hostname="kermit" time="0.033">
+  <properties/>
+  <testcase name="samplesAreAddedToResult_SingleSample()" classname="sam.exercises.datastructures.SampleConverterTest" time="0.013"/>
+  <testcase name="samplesAreAddedToResult_MultipleComplicatedSamplesWithEnds()" classname="sam.exercises.datastructures.SampleConverterTest" time="0.006"/>
+  <testcase name="samplesAreAddedToResult_MultipleSamples()" classname="sam.exercises.datastructures.SampleConverterTest" time="0.001"/>
+  <testcase name="samplesAreAddedToResult_MultipleSamplesWithEnds()" classname="sam.exercises.datastructures.SampleConverterTest" time="0.005"/>
+  <system-out><![CDATA[Comparing
+Comparing
+Comparing
+staIdx: 0 vs stack.size() 1
+samIdx: 0 vs sample.size() 3
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+Comparing
+staIdx: 0 vs stack.size() 2
+samIdx: 0 vs sample.size() 3
+staIdx: 1 vs stack.size() 2
+samIdx: 1 vs sample.size() 3
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 3
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+Comparing
+Comparing
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+Comparing
+Comparing
+staIdx: 0 vs stack.size() 1
+samIdx: 0 vs sample.size() 2
+Comparing
+staIdx: 0 vs stack.size() 2
+samIdx: 0 vs sample.size() 3
+staIdx: 1 vs stack.size() 2
+samIdx: 1 vs sample.size() 3
+Comparing
+Comparing
+staIdx: 0 vs stack.size() 1
+samIdx: 0 vs sample.size() 3
+Comparing
+staIdx: 0 vs stack.size() 3
+samIdx: 0 vs sample.size() 2
+[Event{
+	type=[start],
+	ts=[10.7],
+	funcName=[main]
+}, Event{
+	type=[start],
+	ts=[11.6],
+	funcName=[outer_function]
+}, Event{
+	type=[start],
+	ts=[11.6],
+	funcName=[inner_function]
+}, Event{
+	type=[end],
+	ts=[12.5],
+	funcName=[inner_function]
+}, Event{
+	type=[end],
+	ts=[12.5],
+	funcName=[outer_function]
+}, Event{
+	type=[start],
+	ts=[12.5],
+	funcName=[new_function]
+}]]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
